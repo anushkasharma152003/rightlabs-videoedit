@@ -6,6 +6,14 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+
+
+
+
+import { Space_Grotesk, Outfit } from 'next/font/google';
+
+const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
+const outfit = Outfit({ subsets: ['latin'] });
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -27,3 +35,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
