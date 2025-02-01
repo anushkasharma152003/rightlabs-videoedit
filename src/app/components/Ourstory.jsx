@@ -8,7 +8,7 @@ const StorySection = () => {
         Editing So Lit, Even TikTok Can’t <span className="animate-twinkle text-[#021842]"> Handle It</span>.
         </h1>
 
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-24 items-center mt-[100px] ">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-24 items-center mt-[150px] ">
           {/* Left Side - Cameras in Increasing Order */}
           <div className="w-full lg:w-1/2 flex justify-start ">
             <div className="flex items-end ml-[-100px] ">
@@ -86,7 +86,7 @@ const StorySection = () => {
 
           {/* Right Side - Story Text */}
           <div className="w-full lg:w-1/2">
-            <div className="space-y-6 text-lg text-gray-700 font-bold">
+            <div className="space-y-0 text-[20px] text-gray-700 font-normal">
               {/* <p className="leading-relaxed">
                 It began with two passionate editors, one shared vision, and some
                 groundbreaking ideas that made people rethink how video content could
@@ -104,7 +104,7 @@ const StorySection = () => {
 
 
             
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-[150px] items-center mt-[100px] ">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-[150px] items-center mt-[150px] mb-[100px] ">
 
             {/* Right Side - Story Text */}
             <div className="w-full lg:w-1/2">
@@ -114,7 +114,7 @@ const StorySection = () => {
                 groundbreaking ideas that made people rethink how video content could
                 be created. It was in the year 2020.
               </p> */}
-              <p className="leading-relaxed">
+              <p className="leading-relaxed space-y-0 text-[20px] text-gray-700 font-normal">
                 Today, our team of editors and visual artists are constantly pushing
                 creative boundaries, challenging conventions, and bringing fresh
                 perspectives to every project. Sometimes competing, sometimes
@@ -209,8 +209,8 @@ const StorySection = () => {
 
 
         {/* Bottom Text */}
-        <div className="mt-24 text-center max-w-4xl mx-auto text-gray-700">
-          <p className="text-lg leading-relaxed font-bold">
+        <div className="mt-[150px] text-center max-w-4xl mx-auto  mb-[100px]">
+          <p className="space-y-0 text-[20px] text-gray-700 font-normal">
             Backed by a strong fundamental/value system, and experience of working
             with over 1000+ video projects, our team of creative editors, motion
             designers, colorists, and VFX artists believe RightLabs is an experience

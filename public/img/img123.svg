@@ -65,11 +65,11 @@
     <circle cx="180" cy="130" r="10" fill="#111"/>
     
     <!-- Neon Accent Lines -->
-    <path d="M 120 150 L 480 150" stroke="url(#neonGlow)" stroke-width="1" opacity="0.5"/>
-    <path d="M 120 350 L 480 350" stroke="url(#neonGlow)" stroke-width="1" opacity="0.5"/>
+    <path d="M 120 150 L 480 150" stroke="url(#neonGlow)" stroke-width="1" opacity="0.9"/>
+    <path d="M 120 350 L 480 350" stroke="url(#neonGlow)" stroke-width="1" opacity="0.9"/>
     
     <!-- Vibrant Glow Overlay -->
     <rect x="90" y="90" width="420" height="320" rx="25" 
-          fill="url(#neonGlow)" opacity="0.4"/>
+          fill="url(#neonGlow)" opacity="0.9"/>
   </g>
 </svg>

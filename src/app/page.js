@@ -5,6 +5,12 @@ import Section2 from "./components/Section2.jsx";
 import OurStory from "./components/Ourstory.jsx";
 import WorkSection from "./components/Worksection.jsx";
 
+import TeamSection from "./components/TeamSection.jsx";
+import WhyChooseUs from "./components/WhyChooseUs.jsx";
+import CTASection from "./components/CtaSection.jsx";
+
+
+
 
 
 export default function Home() {
@@ -17,7 +23,11 @@ export default function Home() {
     <OurStory/>
    
     <WorkSection/>
-    <Section2/>
+    <TeamSection/>
+    {/* <Section2/> */}
+    <WhyChooseUs/>
+    <CTASection/>
+  
 
   
     </div>

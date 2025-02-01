@@ -38,12 +38,12 @@ export default function RightLabsExperience() {
             </div>
   
             {/* Card 02 - Red X */}
-            <div className="relative rounded-2xl overflow-hidden bg-black aspect-video">
-              <span className="absolute top-4 right-6 text-8xl font-bold text-white/90">02</span>
+            <div className="relative rounded-2xl  bg-black aspect-video">
+              <span className="absolute top-[-40px] right-6 text-8xl font-bold text-white/90">02</span>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-4/5 h-4/5 relative">
-                  <div className="absolute inset-0 bg-red-500 transform rotate-45"></div>
-                  <div className="absolute inset-0 bg-red-500 transform -rotate-45"></div>
+                  <div className="absolute left-20 inset-0 w-24  bg-red-500 transform rotate-45"></div>
+                  <div className="absolute w-24 left-20 inset-0  bg-red-500 transform -rotate-45"></div>
                 </div>
               </div>
             </div>
